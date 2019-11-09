@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background:linear-gradient(green,yellow) ;
+    background-attachment: fixed;
+}
+
+#square-container {
+    height: 41em;
+    width: 41em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    flex-wrap: wrap;
+}
+
+button {
+    position: relative;
+}
+
+.square {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#container {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
