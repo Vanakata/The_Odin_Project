@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(yellow, orange);
+    background-attachment: fixed;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}
+
+#calculator {
+    position: relative;
+    left: -50%;
+    bottom: 75%;
+    height: 400px;
+    width: 350px;
+    background: linear-gradient(silver, whitesmoke);
+}
+
+#symbol-container {
+    grid-template-columns: 10% 10% 10%;
+    align-items: center;
+    display: grid;
+    width: 50%;
+    position: absolute;
+    right: 50%;
+    top: 25%;
+    display: inline-block;
+}
+
+.number {
+    padding: 10px 24px;
+    text-align: center;
+}
+
+#result {
+    position: relative;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
